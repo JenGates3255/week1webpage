@@ -1,10 +1,10 @@
 .pagecolor {
-	background-color: gray;
+	background-color: #7C8F94;
 }
 
 .head {
 	height:200px; 
-	width:50%;
+	width:40%;
 	background-color:#00CC7A;
 	margin-left: auto; 
 	margin-right:auto;
@@ -17,7 +17,7 @@ h2 {
 	color: white;
 }
 .menu{
-	width:46%; 
+	width:37%; 
 	height:50px;
 	margin-left:auto;
 	margin-right:auto;
@@ -37,12 +37,12 @@ h2 {
 	padding-top: 20px;
 }
 .mainbody {
-	height: 600px;
-	width:50%;
+	height: 100%;
+	width:40%;
 	padding-top: 10px;
 	margin-right: auto; 
 	margin-left:auto;
-	background-color: #F6F6F7;
+	background-color: #FfFFFF;
 	opacity: 0.7;
 }
 .mainbody h3 {
@@ -69,5 +69,37 @@ h5 {
 	margin-left:2%;
 }
 .sectiontitle {
+	margin-top: -25px;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+.table {
+ 	border: thin solid black;	 	
+}
+.tablehead {
+	background-color: lightgray;
+}
+button {
+	background-color: #2385E8;
+	color: white;
+	box-shadow: none;
+}
+.examplebox {
+	background-color: lightgray;
+	height: 30% ;
+	width:80%;
+	padding: 5%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.numlist {
+	font-size: 12px;
+	padding-right: 30px;
 	padding-top: 5px;
+}
+.author{
+	color: #A7B4B8;
+	text-align: left;
 }
